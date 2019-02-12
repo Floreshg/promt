@@ -5,11 +5,11 @@ $(document).ready(function(){
         dataType: 'json',
         success: function(e){
             const  userlist = $("#userlist");
-            $.each(e.data, function(index,element){
+            $.each(e.data, function(index,data){
                 userlist.append(`<div class="col-sm">
-                <img src="${element.avatar}" alt="" class="rounded-circle mx-auto d-block">
+                <img src="${data.avatar}" alt="" class="rounded-circle mx-auto d-block">
                 <div>
-                <p class="text-center inline-block">${element.first_name} ${element.last_name}</p></div></div>`);
+                <p class="text-center inline-block">${data.first_name} ${data.last_name}</p></div></div>`);
             });
         },
 
