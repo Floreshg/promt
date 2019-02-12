@@ -1,0 +1,81 @@
+.carousel-control.right{
+    background-image: none!important;
+}
+
+.carousel-control.left{
+    background-image: none!important;
+}
+
+.navbar-default{
+    background-color:#fff!important;
+    background: #fff!important;
+}
+
+
+section.main {
+    margin-top: 5rem;
+}
+
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+  }
+
+  .carousel-indicators{
+      left: auto!important;
+      margin-right: 10%!important;
+  }
+
+
+
+  .carousel-indicators .active{
+  background-color: #ff6e00!important;
+  }
+
+  .carousel-indicators li{
+    border: 1.5px solid #fff;
+
+  }
+
+  .fa-chevron-right:before{
+      font-size: 30px
+  }
+
+  .fa-chevron-left:before{
+    font-size: 30px
+}
+@media (min-width: 500px) {
+    .carousel-control-next, .carousel-control-prev{
+        top: 43%;
+        bottom: 43%;
+        background: rgba(0,0,0,.4);
+        width: 6%;
+    }
+}
+
+
+
+li.nav-item {
+    padding: 0px 20px;
+}
+
+
+.dropdown-toggle::after{
+    font-family: "Font Awesome 5 Free";
+    
+}
+
+@media (max-width: 500px) {
+.carousel-control-next, .carousel-control-prev {
+    top: 35%;
+    bottom: 35%;
+    background: rgba(0,0,0,.4);
+    width: 7%;
+}
+}
+/*
+  .logo{
+      width: 70%;
+  } */
