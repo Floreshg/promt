@@ -13,7 +13,7 @@
 }
 .carousel-indicators{
     left: auto!important;
-    margin-right: 97px;
+    margin-right: 8.5%;
 }
 .carousel-indicators .active{
     background-color: #ff6e00!important;
@@ -30,6 +30,11 @@
 li.nav-item {
     padding: 0px 18px;
     font-size: 14px;
+}
+
+.navbar-light .navbar-toggler {
+    color: transparent;
+    border-color: transparent;
 }
 
 .usrlist{
