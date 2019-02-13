@@ -23,7 +23,6 @@ $(document).ready(function(){
  
  
  
- 
 
 $(document).ready(function(){
     for(let i = 0; i < 4; i++) {
@@ -35,3 +34,49 @@ $(document).ready(function(){
     $('.carousel-indicators > li').first().addClass('active');
     $('#carousel').carousel();
 });
+
+
+
+
+
+$(document).ready(function() {
+    let toggleSearch = $("form span");
+  
+    let showInput = false;
+  
+    toggleSearch.on("click", function() {
+      if (showInput) {
+        $("form input[type='search']").animate(
+          {
+            left: "-40px",
+            width: "0px"
+          },
+          200,
+          function() {
+            $("form span").css({
+              "border-radius": "5px",
+              "background-color":"#fff"
+            });
+          }
+        );
+      } else {
+        $("form span").css({
+          "border-radius": "0px 0 0 0px",
+          "color": "white",
+          "background-color": "#333"
+        });
+        $("form input[type='search']").animate(
+          {
+            left: 0,
+            width: "120px"
+          },
+          200,
+          function(){
+            $("form input[type='search']").focus();
+          }
+        );
+      }
+      showInput = !showInput;
+    });
+  });
+  
