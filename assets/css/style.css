@@ -28,7 +28,29 @@ li.nav-item {
 }
 .dropdown-toggle::after{
     font-family: "Font Awesome 5 Free";
+    content: "\f078"!important;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    font-weight: 900;
+    color: #b5bec3;
+    font-size: 13px;
 }
+
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: .0em;
+    vertical-align: .0em;
+    content: "";
+    border-top: .0em;
+    border-right: .0em solid transparent;
+    border-bottom: 0;
+    border-left: .0em solid transparent;
+}
+
 .dropdown:hover>.dropdown-menu {
     display: block;
 }
@@ -55,9 +77,10 @@ input.search[type=search]:focus {
 .d-content{
     display: contents;
 }
+/*
 .navbar{
     padding: .5rem 0rem;
-}
+} */
 .input-group-text{
     background-color: transparent;
 }
@@ -66,6 +89,22 @@ input.search[type=search]:focus {
 }
 .fas.fa-bars {
     color :rgba(255, 110, 0, 1);
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
+
+
+.footer{
+    padding: 3rem;
+    background: #0c1316;
+    width: 100%;
+}
+
+.bg-usrlist{
+    background: #f4f9fa;
 }
 @media (min-width: 500px) {
     .carousel-control-next, .carousel-control-prev{
