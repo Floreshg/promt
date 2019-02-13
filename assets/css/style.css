@@ -2,57 +2,36 @@
     background-color:#fff!important;
     background: #fff!important;
 }
-
 .carousel-indicators li {
     width: 10px;
     height: 10px;
     border-radius: 100%;
 }
-
 .carousel-indicators{
     left: auto!important;
     margin-right: 10%!important;
 }
-
-
-
 .carousel-indicators .active{
-  background-color: #ff6e00!important;
+    background-color: #ff6e00!important;
 }
-
- 
-
-
-
 .carousel-indicators li{
     border: 1.5px solid #fff;
-
 }
-
 .fa-chevron-right:before{
-    font-size: 30px
+    font-size: 30px 
 }
-
 .fa-chevron-left:before{
-    font-size: 30px
+    font-size: 30px 
 }
-
-
 li.nav-item {
     padding: 0px 8px;
 }
-
-
 .dropdown-toggle::after{
     font-family: "Font Awesome 5 Free";
-    
 }
-
-
 .dropdown:hover>.dropdown-menu {
     display: block;
-  }
-
+}
 input.search[type=search] {
     background: #fff url(../img/search1.png) no-repeat 9px center;
     border: solid 1px transparent;
@@ -64,7 +43,6 @@ input.search[type=search] {
     transition: all .5s;
     margin-top: 2px;
 }
-
 input.search[type=search]:focus {
     width: 190px;
     background-color: #fff;
@@ -74,34 +52,28 @@ input.search[type=search]:focus {
     -moz-box-shadow: 0 0 5px transparent;
     box-shadow: 0 0 5px transparent;
 }
-
 .d-content{
     display: contents;
 }
-
 .navbar{
     padding: .5rem 0rem;
 }
-
 .input-group-text{
     background-color: transparent;
 }
-
 .b-radius{
     border-radius: 50%;
 }
-
-.fas.fa-bars { 
-    color :rgba(255, 110, 0, 1); 
-} 
-
+.fas.fa-bars {
+    color :rgba(255, 110, 0, 1);
+}
 @media (min-width: 500px) {
     .carousel-control-next, .carousel-control-prev{
         top: 43%;
         bottom: 43%;
         background: rgba(0,0,0,.4);
         width: 6%;
-    }
+   }
 }
 @media (max-width: 499px) {
     .carousel-control-next, .carousel-control-prev {
@@ -109,17 +81,15 @@ input.search[type=search]:focus {
         bottom: 35%;
         background: rgba(0,0,0,.4);
         width: 7%;
-    }
+   }
 }
-
-
 @media (min-width: 1200px) {
     section.main {
         margin-top: 5rem;
-    }
-    }
-    @media (max-width: 1199px) {
+   }
+}
+@media (max-width: 1199px) {
     section.main {
         margin-top: 8rem;
-    }}
-    
+   }
+}
