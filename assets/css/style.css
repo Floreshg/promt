@@ -38,6 +38,12 @@ section.main {
   background-color: #ff6e00!important;
   }
 
+ 
+
+  .fas.fa-bars { 
+    color :rgba(255, 110, 0, 1); 
+} 
+
   .carousel-indicators li{
     border: 1.5px solid #fff;
 
@@ -113,4 +119,13 @@ input[type=search]:focus {
 
 .navbar{
     padding: .5rem 0rem;
+}
+
+
+.input-group-text{
+    background-color: transparent;
+}
+
+.b-radius{
+    border-radius: 50%;
 }
