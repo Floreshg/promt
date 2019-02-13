@@ -1,3 +1,7 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
 .navbar-default{
     background-color:#fff!important;
     background: #fff!important;
@@ -9,7 +13,7 @@
 }
 .carousel-indicators{
     left: auto!important;
-    margin-right: 10%!important;
+    margin-right: 97px;
 }
 .carousel-indicators .active{
     background-color: #ff6e00!important;
@@ -24,7 +28,13 @@
     font-size: 30px 
 }
 li.nav-item {
-    padding: 0px 8px;
+    padding: 0px 18px;
+    font-size: 14px;
+}
+
+.usrlist{
+    font-size: 18px;
+    padding-top: 8px;
 }
 .dropdown-toggle::after{
     font-family: "Font Awesome 5 Free";
@@ -37,7 +47,7 @@ li.nav-item {
     line-height: 1;
     font-weight: 900;
     color: #b5bec3;
-    font-size: 13px;
+    font-size: 11px;
 }
 
 .dropdown-toggle::after {
@@ -66,7 +76,7 @@ input.search[type=search] {
     margin-top: 2px;
 }
 input.search[type=search]:focus {
-    width: 190px;
+    width: 110px;
     background-color: #fff;
     border-color: transparent;
     color: #000;
@@ -106,22 +116,39 @@ input.search[type=search]:focus {
 .bg-usrlist{
     background: #f4f9fa;
 }
-@media (min-width: 500px) {
-    .carousel-control-next, .carousel-control-prev{
-        top: 43%;
-        bottom: 43%;
+
+
+@media (min-width: 500px){
+    .carousel-control-next, .carousel-control-prev {
+        top: 40%;
+        bottom: 40%;
         background: rgba(0,0,0,.4);
-        width: 6%;
-   }
+        width: 60px;
+    }
 }
+
 @media (max-width: 499px) {
     .carousel-control-next, .carousel-control-prev {
-        top: 35%;
+        top: 36%;
         bottom: 35%;
         background: rgba(0,0,0,.4);
-        width: 7%;
+        width: 35px;
+   }
+
+   .navbar-brand{
+    margin-right: 0rem;
+}
+}
+
+@media (min-width: 992px) {
+    .carousel-control-next, .carousel-control-prev{
+        top: 44%;
+        bottom: 43%;
+        background: rgba(0,0,0,.4);
+        width: 60px;
    }
 }
+
 @media (min-width: 1200px) {
     section.main {
         margin-top: 5rem;
