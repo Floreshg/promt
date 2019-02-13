@@ -41,7 +41,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     for(let i = 1 ; i <= 4 ; i++) {
-        $('<div class="carousel-item"><img src="assets/img/'+i+'.jpg" class="d-block w-100"></div>').appendTo('.carousel-inner');
+        $('<div class="carousel-item"><img src="assets/img/'+i+'.jpg" class="img-fluid w-100 h-100 d-inline-block"></div>').appendTo('.carousel-inner');
         $('<li data-target="#carousel" data-slide-to="'+i+'"></li>').appendTo('.carousel-indicators')
     }
     $('.carousel-item').first().addClass('active');
